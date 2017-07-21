@@ -1,0 +1,12 @@
+{application,fntn,
+             [{description,"fntn"},
+              {modules,['Elixir.Fntn','Elixir.Fntn.Endpoint',
+                        'Elixir.Fntn.ErrorHelpers','Elixir.Fntn.ErrorView',
+                        'Elixir.Fntn.Gettext','Elixir.Fntn.Repo',
+                        'Elixir.Fntn.Router','Elixir.Fntn.Router.Helpers',
+                        'Elixir.Fntn.UserSocket','Elixir.Fntn.Web']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.Fntn',[]}},
+              {applications,[kernel,stdlib,elixir,phoenix,phoenix_pubsub,
+                             cowboy,logger,gettext,phoenix_ecto,postgrex]}]}.
