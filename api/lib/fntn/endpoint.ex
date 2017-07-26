@@ -36,5 +36,6 @@ defmodule Fntn.Endpoint do
     key: "_fntn_key",
     signing_salt: "qBLpdLsX"
 
+  plug CORSPlug
   plug Fntn.Router
 end
