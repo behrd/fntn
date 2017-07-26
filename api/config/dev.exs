@@ -29,3 +29,7 @@ config :fntn, Fntn.Repo,
   database: "fntn_dev",
   hostname: "localhost",
   pool_size: 10
+
+# Configure Guardian
+config :guardian, Guardian,
+  secret_key: "gllSw2Q+HVDOqdY8YTH8rlc4lC72vC6OKP5FSfuP4hJ3ZQZe0zGUxYwHe2Nst6Bp"

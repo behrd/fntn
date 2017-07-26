@@ -19,7 +19,7 @@ defmodule Fntn.Mixfile do
   def application do
     [mod: {Fntn, []},
      applications: [:phoenix, :phoenix_pubsub, :cowboy, :comeonin, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]]
+                    :phoenix_ecto, :postgrex, :guardian]]
   end
 
   # Specifies which paths to compile per environment.
@@ -36,7 +36,8 @@ defmodule Fntn.Mixfile do
      {:postgrex, ">= 0.0.0"},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:comeonin, "~> 2.5"}]
+     {:comeonin, "~> 2.5"},
+     {:guardian, "~> 0.13.0"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.

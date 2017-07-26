@@ -11,4 +11,5 @@
               {vsn,"0.0.1"},
               {mod,{'Elixir.Fntn',[]}},
               {applications,[kernel,stdlib,elixir,phoenix,phoenix_pubsub,
-                             cowboy,logger,gettext,phoenix_ecto,postgrex]}]}.
+                             cowboy,comeonin,logger,gettext,phoenix_ecto,
+                             postgrex]}]}.
