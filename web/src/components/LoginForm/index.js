@@ -32,7 +32,7 @@ class LoginForm extends Component {
         className={`card ${css(styles.card)}`}
         onSubmit={handleSubmit(this.handleSubmit)}
       >
-        <h3 style={{ marginBottom: '2rem', textAlign: 'center' }}>Login to Sling</h3>
+        <h3 style={{ marginBottom: '2rem', textAlign: 'center' }}>Login to Fntn</h3>
         <Field name="email" type="text" component={Input} placeholder="Email" style={{ marginBottom: '1rem' }} />
         <Field name="password" type="password" component={Input} placeholder="Password" style={{ marginBottom: '1rem' }} />
         <button
